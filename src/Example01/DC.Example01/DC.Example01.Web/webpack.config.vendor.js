@@ -12,6 +12,7 @@ const treeShakableModules = [
     '@angular/platform-browser',
     '@angular/platform-browser-dynamic',
     '@angular/router',
+    '@progress/kendo-theme-default/dist/all.css',
     'zone.js',
 ];
 const nonTreeShakableModules = [
