@@ -4,9 +4,17 @@
 
 <p *ngIf="!forecasts"><em>Loading...</em></p>
 
-<kendo-grid [data]="forecasts">
+<kendo-grid 
+    [data]="gridView"
+    [sortable]="{
+            allowUnsort: allowUnsort,
+            mode: multiple ? 'multiple' : 'single'
+            }"
+    [sort]="sort"
+    (sortChange)="sortChange($event)">
     <kendo-grid-column field="dateFormatted" title="Date"></kendo-grid-column>
     <kendo-grid-column field="temperatureC" title="Temp. (C)" width="150"></kendo-grid-column>
     <kendo-grid-column field="temperatureF" title="Temp. (F)" width="150">
     </kendo-grid-column> <kendo-grid-column field="summary" title="Summary"></kendo-grid-column>
 </kendo-grid>
+

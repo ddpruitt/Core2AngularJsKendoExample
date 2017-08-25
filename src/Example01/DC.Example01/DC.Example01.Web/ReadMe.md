@@ -15,3 +15,8 @@ npm install --save @progress/kendo-angular-grid @progress/kendo-angular-dropdown
 npm install -S @progress/kendo-theme-default
 
 npm run webpack:vendor
+
+
+## Sorting
+
+Added sorting using the [Kendo UI for Angular Sorting](http://www.telerik.com/kendo-angular-ui/components/grid/sorting/) example.
