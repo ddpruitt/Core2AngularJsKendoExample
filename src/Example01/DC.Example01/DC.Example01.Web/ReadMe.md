@@ -13,3 +13,5 @@ npm install --save @progress/kendo-angular-buttons @progress/kendo-angular-l10n 
 npm install --save @progress/kendo-angular-grid @progress/kendo-angular-dropdowns @progress/kendo-angular-inputs @progress/kendo-angular-dateinputs @progress/kendo-data-query @progress/kendo-angular-intl @progress/kendo-angular-l10n @progress/kendo-drawing @progress/kendo-angular-excel-export @angular/animations
 
 npm install -S @progress/kendo-theme-default
+
+npm run webpack:vendor
